@@ -1,11 +1,15 @@
 import React,{ useState} from 'react'
 import Dropdown from './Dropdown'
-import languageOptions from '../languageOptions.json'
+import options from '../options.json'
 const Translate = () => {
-    const [language,setlanguage]=useState(languageOptions[0])
+    const [language,setlanguage]=useState(options[0])
     return (
         <div>
-            <Dropdown languageOptions={languageOptions} />
+            <Dropdown 
+                options={options} 
+                selected={language}
+                onSelectedChange={setlanguage}
+                />
         </div>
     )
 }

@@ -5,7 +5,7 @@ import Search from './components/Search';
 import Dropdown from './components/Dropdown';
 import items from './items.json'
 import options from './options.json'
-
+import Translate from './components/Translate'
 
 
 function App() {
@@ -14,7 +14,8 @@ function App() {
     <div className="App">
       {/* <Accordion items={items}/> */}
       {/* <Search /> */}
-      <Dropdown options={options} selected={selected} onSelectedChange={SetSelected}/>
+      {/* <Dropdown options={options} selected={selected} onSelectedChange={SetSelected}/> */}
+      <Translate />
     </div>
   );
 }

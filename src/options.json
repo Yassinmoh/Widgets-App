@@ -1,14 +1,14 @@
 [
     {
-        "label":"The Color Red",
-        "value":"red"
+        "label": "Afrikaans",
+        "value": "af"
     },
     {
-        "label":"The Color Green",
-        "value":"green"
+        "label": "Arabic",
+        "value": "ar"
     },
     {
-        "label":"A Shade Of Blue",
-        "value":"blue"
+        "label": "Spanish",
+        "value": "sp"
     }
 ]
